@@ -222,7 +222,7 @@ class Game:
         board.begin()
         return board
 
-    def gree4t(self):
+    def greet(self):
         print("-------------------")
         print("  Приветствуем вас  ")
         print("      в игре       ")
