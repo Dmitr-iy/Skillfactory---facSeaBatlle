@@ -232,14 +232,11 @@ class Game:
         print(" x - номер строки  ")
         print(" y - номер столбца ")
 
-
     def print_board(self):
-        print("-" * 20)
-        print("Доска пользователя:")
-        print(self.us.board)
-        print("-" * 20)
-        print("Доска компьютера:")
-        print(self.ai.board)
+        a = str(self.ai.board)
+        b = str(self.us.board)
+        for x, y in zip(a.split('\n'), b.split('\n')):
+            print(x, '  ***  ', y)
 
     def loop(self):
         num = 0
