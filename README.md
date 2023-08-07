@@ -8,3 +8,4 @@
   ```
     git clone https://github.com/Dmitr-iy/Skillfactory---facSeaBatlle.git
   ```
+### _Open the program in your IDE and run the ```main.py``` file._
